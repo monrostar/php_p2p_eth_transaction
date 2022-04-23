@@ -1,0 +1,24 @@
+{
+  "name": "root/web3php",
+  "authors": [
+    {
+      "name": "Eugene Nitsenko",
+      "email": "nitsenko94@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "sc0vu/web3.php": "dev-master",
+    "web3p/ethereum-tx": "dev-master",
+    "ext-json": "*",
+    "monolog/monolog": "^2.2",
+    "ext-bcmath": "*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  }
+}
